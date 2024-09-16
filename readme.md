@@ -1,4 +1,7 @@
-Add environment file 
+Requirements
 
-OPENAI_API_KEY=OPENAI_API_KEY
-TAVILY_API_KEY=TAVILY_API_KEY
+    Add environment file .env
+
+    OPENAI_API_KEY=OPENAI_API_KEY
+
+    TAVILY_API_KEY=TAVILY_API_KEY
