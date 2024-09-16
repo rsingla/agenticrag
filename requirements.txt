@@ -6,3 +6,4 @@ pip install aiosqlite pygments pygraphviz gradio
 pip install python-dotenv tavily-python duckduckgo_search beautifulsoup4 openai langgraph langchain_core
 pip install ipython
 pip install Pillow
+ pip install tavily-python
