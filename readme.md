@@ -1,6 +1,8 @@
 Requirements
 
 brew install graphviz pkg-config
+pip install -r requirements.txt
+
 
     Add environment file .env
 
