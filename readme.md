@@ -1,5 +1,7 @@
 Requirements
 
+brew install graphviz pkg-config
+
     Add environment file .env
 
     OPENAI_API_KEY={{OPENAI_API_KEY}}
