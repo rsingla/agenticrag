@@ -10,6 +10,7 @@ from pygments import highlight, lexers, formatters
 import json
 
 from PIL import Image
+import base64
 
 
 def load_env():
@@ -87,3 +88,9 @@ def cprint(response):
                               lexers.JsonLexer(),
                               formatters.TerminalFormatter())
     print(colorful_json)
+
+
+
+def encode_image(image_path):
+  with open(image_path, "rb") as image_file:
+    return base64.b64encode(image_file.read()).decode('utf-8')

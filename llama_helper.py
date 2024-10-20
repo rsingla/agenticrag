@@ -115,3 +115,21 @@ def wolfram_alpha(query: str) -> str:
 def get_boiling_point(liquid_name, celsius):
   # function body
   return []
+
+
+def llama32pi(prompt, image_url, model_size=90):
+  messages = [
+    {
+      "role": "user",
+      "content": [
+        {"type": "text",
+          "text": prompt},
+        {"type": "image_url",
+          "image_url": {
+            "url": image_url}
+        }
+      ]
+    },
+  ]
+  result = llama32(messages, model_size)
+  return result
